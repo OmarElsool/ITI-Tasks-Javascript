@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .img-wrapper{
+        max-width: 100px;
+    }
+    .img-sliding{
+        margin: 50px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .timer{
+        margin: 50px;
+        font-size: 50px;
+    }
+</style>
+<body>
+    <button class="nextBtn">Next</button>
+    <button class="previousBtn">Previous</button>
+    <button class="slidingBtn">Slide Show</button>
+    <button class="stopBtn">Stop</button>
+
+    <div class="img-wrapper">
+        <img src="./images/5.jpg" alt="..." class="img-sliding">
+    </div>
+
+    <hr>
+
+    <div class="timer">
+        <div class="timer-text">
+            <span class="decimalMin">0</span>
+            <span class="singleMin">0</span>
+            <span>:</span>
+            <span class="decimalSec">0</span>
+            <span class="singleSec">0</span>
+        </div>
+        <div class="timer-buttons">
+            <button class="startTimerBtn">Start</button>
+            <button class="stopTimerBtn">Stop</button>
+        </div>
+    </div>
+
+    
+    <script src="function.js"></script>
+    <script src="Sliding.js"></script>
+    <script src="Timer.js"></script>
+</body>
+</html>
